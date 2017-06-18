@@ -1,0 +1,43 @@
+    <div class="footer-wrapper" style="padding-top: 0px; padding-bottom: 0px">     
+        <div id="footer" class="container">
+            <section class="main-section footer" id="contact">
+                
+                <div class="contact_section">
+                    <div class="row">
+                        <div  *ngFor = "let c of contacts">
+                            <div class="contact_block col-lg-3">
+                                <div class="contact_block_icon rollIn animated wow"><span><i class="fa fa-home"></i></span></div>
+                                <span> 
+                                     {{c.Address[0]}}<br />
+                                     {{c.Url}}
+                                </span>
+                            </div>
+
+                            <div class="contact_block col-lg-3">
+                                <div class="contact_block_icon icon2 rollIn animated wow"><span><i class="fa fa-phone"></i></span></div>
+                                <span>
+                                    +02 {{c.Phone[0]}}<br>
+                                    +02 {{c.Phone[1]}}
+                                </span>
+                            </div>
+
+                            <div class="contact_block col-lg-3">
+                                <div class="contact_block_icon icon4 rollIn animated wow"><span><i class="fa fa-fax"></i></span></div>
+                                <span> Fax: ++ {{c.Fax[0]}}</span>
+                            </div>
+
+                            <div class="contact_block col-lg-3">
+                                <div class="contact_block_icon icon3 rollIn animated wow"><span><i class="fa fa-envelope-o"></i></span></div>
+                                <span> <a href="mailto:zoogiza@hotmail.com"> E-mail: {{c.Email[0]}} </a> </span>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+                <p class="text-center">Copy rights &copy 2017 Giza Zoo </p>
+              
+            </section>
+
+        </div>
+
+    </div>

@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900");
+@import url("font-awesome.min.css");
+
+/*
+	Escape Velocity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+@font-face{
+	font-family: 'chawp';
+	src: url('../../assets/fonts/chawp.otf')
+}
+
+
+/* Section/Article */
+
+	section {
+		margin-bottom: 3em;
+	}
+
+/* Wrappers */
+
+	.wrapper {
+		position: relative;
+	}
+
+		.wrapper .title {
+			font-family:'chawp';
+			position: absolute;
+			top: 0;
+			left: 50%;
+			text-align: center;
+			text-transform: uppercase;
+			display: block;
+			font-weight: 700;
+			letter-spacing: 0.25em;
+		}
+
+			.wrapper .title:before {
+
+				content: '';
+				position: absolute;
+				bottom: -38px;
+				left: -35px;
+				width: 35px;
+				height: 38px;
+				background: url("../../assets/images/shadow.png");
+			}
+
+			.wrapper .title:after {
+				-moz-transform: scaleX(-1);
+				-webkit-transform: scaleX(-1);
+				-ms-transform: scaleX(-1);
+				transform: scaleX(-1);
+				content: '';
+				position: absolute;
+				bottom: -38px;
+				right: -35px;
+				width: 35px;
+				height: 38px;
+				background: url("../../assets/images/shadow.png");
+			}
+.title{
+
+			font-size: 30px;
+}
+
+	#footer-wrapper {
+		background: #282b34 url("../../assets/images/overlay.png");
+		color: #eee;
+		color: rgba(255, 255, 255, 0.5);
+            margin-top: 4%;
+	}
+
+		#footer-wrapper .title {
+			font-family: 'chawp';
+			background: #282b34 url("../../assets/images/overlay.png");
+			color: #eee;
+		}
+
+/* Desktop + Tablet */
+
+	@media screen and (min-width: 737px) {
+
+		/* Basic */
+
+			body, input, select, textarea {
+				font-size: 13pt;
+				line-height: 1.75em;
+				letter-spacing: 0.025em;
+			}
+
+			body {
+				min-width: 1200px;
+			}
+
+		
+
+		/* Section/Article */
+
+			section {
+				margin: 0 0 4em 0;
+			}
+
+			
+
+		/* Wrappers */
+
+			.wrapper {
+				padding: 0;
+			}
+
+				.wrapper .title {
+					
+					width: 25em;
+					height: 3.25em;
+					top: -3.25em;
+					line-height: 3.25em;
+					margin-bottom: -3.25em;
+					margin-left: -12.5em;
+					padding-top: 0.5em;
+				}
+				.wrapper .title .p{
+					font-family: 'chawp';
+					font-size:0.9em;
+				}
+
+
+		/* Header */
+
+			#header {
+				position: relative;
+				padding: 3em 0;
+			}
+	
+	}
+
+/* Tablet Only */
+
+	@media screen and (min-width: 737px) and (max-width: 1200px) {
+
+		/* Basic */
+
+			body {
+				min-width: 1000px;
+				font-size: 12pt;
+				line-height: 1.5em;
+				letter-spacing: 0.015em;
+			}
+
+
+			body {
+				min-width: 960px;
+			}
+
+		/* Wrappers */
+
+			.wrapper {
+				padding: 4em 0 7em 0;
+			}
+
+
+			#footer-wrapper hr {
+				margin: 3em 0 3em 0;
+			}
+
+		/* Header */
+
+			#header {
+				padding: 10em 0;
+			}
+
+	}
+
+/* Mobile Only */
+
+
+
+	@media screen and (max-width: 736px) {
+
+		/* Basic */
+
+			h2, h3, h4, h5, h6 {
+				font-size: 1.2em;
+				letter-spacing: 0.05em;
+				margin: 0 0 1em 0;
+			}
+
+			hr {
+				margin: 1em 0 1em 0;
+			}
+
+		/* Section/Article */
+
+			section {
+				clear: both;
+				padding: 1em 0 1em 0 !important;
+			}
+
+			header br {
+				display: none;
+			}
+
+			header.style1 {
+				padding: 0 0 1em 0;
+			}
+
+				header.style1 h2 {
+					font-size: 1.5em;
+					letter-spacing: 0.075em;
+					line-height: 1.25em;
+				}
+
+				header.style1 p {
+					display: block;
+					margin: 0;
+				}
+
+		/* Wrappers */
+
+			.wrapper {
+				padding: 15px 15px 5em 15px;
+			}
+
+				.wrapper .title {
+					font-family: 'chawp';
+					font-size: 0.9em;
+					width: 18em;
+					height: 2.5em;
+					top: -2.5em;
+					line-height: 2.5em;
+					margin-bottom: -2.5em;
+					margin-left: -9em;
+					padding-top: 0.5em;
+				}
+
+					.wrapper .title:before, .wrapper .title:after {
+						height: 15px;
+						bottom: -15px;
+						background-size: 100% 100%;
+					}
+
+
+			#footer-wrapper {
+				padding-top: 3em;
+			}
+
+				#footer-wrapper .feature-list section {
+					border-top-color: #eee;
+					border-top-color: rgba(255, 255, 255, 0.05);
+				}
+
+
+
+		/* Footer */
+
+			#footer hr {
+				display: none;
+			}
+
+	}
+		

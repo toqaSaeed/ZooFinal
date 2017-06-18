@@ -1,0 +1,14 @@
+.Mission h2{
+    color: orange;
+    font-family: 'CHAWP';
+    margin-bottom: 5%;
+      text-shadow: 1px 1px 0 #000;
+
+
+}
+
+span{
+    color: green;
+    font-size: 35px;
+    margin-bottom: 2%;
+}

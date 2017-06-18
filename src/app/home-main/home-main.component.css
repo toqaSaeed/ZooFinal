@@ -1,0 +1,14 @@
+
+.back {
+    
+    /*background:url(http://www.zicasso.com/sites/default/files/styles/tour_header_image_style_standard_1x/public/headerimages/tour/Africa-Kenya-Masai-Mara-Giraffe-on-the-Savannah-LT-Header.jpg?timestamp=1383098772) no-repeat bottom;   */
+    /*background:url(../../assets/images/4710.jpg) no-repeat bottom;   */
+    /*background:url(../../assets/images/3853.jpg) no-repeat bottom;   */
+    /*background:url(../../assets/images/source.gif) no-repeat bottom;   */
+    background:url(https://s-media-cache-ak0.pinimg.com/originals/e6/14/55/e61455d0c42859def318d5b707f0917c.jpg) no-repeat bottom;   
+    
+     background-size: cover;
+     height: 600px;
+    /*margin-top: 10px;*/
+    background-position-y: 38%;
+}

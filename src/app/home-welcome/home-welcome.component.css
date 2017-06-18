@@ -1,0 +1,40 @@
+  @font-face {
+    font-family: 'chawp';
+    src: url('../../assets/fonts/chawp.ttf') format('truetype');
+}
+.welcome{
+    background:url(../../assets/images/84906412.xKCeqgEn.jpg) no-repeat center fixed;
+     background-size: cover;   
+
+    }
+
+.welcomelayer{
+    background-color: rgba(55, 55, 55, 0.76);
+    z-index: 1;
+    height: 100%;
+    padding: 10%;
+
+}
+.welcomelayer p {
+        color: white;
+        font-size: 21px;
+        margin-top: 2%;
+        padding-bottom: 2%;
+}
+.welcomelayer h2{
+  margin-top: 10%;
+    }
+    .welcomelayer h2 {
+ 
+    color:coral; 
+    line-height: 1;
+    }
+
+.homeSection h2{
+    font-family:chawp;  
+     font-size: 3em;
+}
+
+h2::after { content: " "; border: solid 2px coral; display: block; width: 50px; margin-left: 35%;
+    margin-top: 25px }
+.section-padding { padding: 90px 0 100px }

@@ -1,0 +1,32 @@
+
+/*******************
+* rotateInDownLeft *
+*******************/
+@-webkit-keyframes rotateInDownLeft { 
+    0% { 
+        -webkit-transform-origin: left bottom; 
+        -webkit-transform: rotate(-90deg); 
+        opacity: 0; 
+    } 
+    100% { 
+        -webkit-transform-origin: left bottom; 
+        -webkit-transform: rotate(0); 
+        opacity: 1; 
+    } 
+} 
+@keyframes rotateInDownLeft { 
+    0% { 
+        transform-origin: left bottom; 
+        transform: rotate(-90deg); 
+        opacity: 0; 
+    } 
+    100% { 
+        transform-origin: left bottom; 
+        transform: rotate(0); 
+        opacity: 1; 
+    } 
+} 
+.rotateInDownLeft.go { 
+    -webkit-animation-name: rotateInDownLeft; 
+    animation-name: rotateInDownLeft; 
+}

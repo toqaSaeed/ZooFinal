@@ -1,0 +1,32 @@
+
+		<!-- Three -->
+			<section id="three" class="wrapper post bg-img" data-bg="banner4.jpg">
+				<div class="inner">
+				
+        <header class="page-header">
+            <h2>Zoo History</h2>
+        </header>
+
+        <ul class="timeline">
+            <!-- angular -->
+  
+            <li *ngFor= "let x of History" [ngClass]="{'timeline-inverted':index%2}">
+                <div class="tldate">{{x.Date}}</div>
+                <div class="tl-circ"></div>
+                <div class="timeline-panel">
+                    <div class="tl-heading">
+                        <h4>{{x.Title}}</h4>
+                    </div>
+                    <div class="tl-body">
+                        <p>{{x.Description}}</p>
+                        <p><img *ngIf="x.img" [src]="x.Image" alt="lorem pixel"></p>
+                    </div>
+                </div>
+                
+                </li>
+
+           
+        </ul>
+        </div>	
+				
+			</section>

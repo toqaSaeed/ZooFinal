@@ -1,0 +1,32 @@
+<section class="container">
+        <h3 class="text-center"> Feel free to contact us anytime</h3>
+
+  <div class="row">
+    <div class=" col col-lg-6 col-md-6 col-sm-12" *ngFor = "let c of contacts">
+      <div class="data">
+        <div class="row">
+          
+          <p class="details"><i class="fa fa-home"></i><strong>{{c.Address[0]}}</strong></p>
+        </div>
+        <div class="row">
+          
+          <p class="details"><i class="fa fa-phone"></i><strong> {{c.Phone[0]}}, {{c.Phone[1]}}</strong></p>
+        </div>
+        <div class="row">
+          
+          <p class="details"><i class="fa fa-envelope"></i><strong> {{c.Email[0]}}</strong></p>
+        </div>
+
+        <div class="row">
+          
+          <p class="details"><i class="fa fa-fax"></i><strong> ++ {{c.Fax[0]}}</strong></p>
+        </div>
+      </div>
+
+    </div>
+    <div class="map col col-lg-6 col-md-6 col-sm-12">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13817.97948980442!2d31.2136607!3d30.0226574!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd2b117b0b809cd52!2z2K3Yr9mK2YLYqSDYp9mE2K3ZitmI2KfZhiDYqNin2YTYrNmK2LLYqQ!5e0!3m2!1sar!2seg!4v1497559798762" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+      </iframe></div>
+  </div>
+
+</section>

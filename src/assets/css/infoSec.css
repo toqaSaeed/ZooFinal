@@ -1,0 +1,137 @@
+
+body{
+	background:#fff;
+	font-family: 'Roboto', sans-serif;
+}
+body a{
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+h2,h3,h4,h5,h6,p{
+	margin:0;
+}
+ ul{
+	padding: 0;
+	margin: 0;
+}
+
+/*----*/
+.wmuSlider {
+	position: relative;
+	/*overflow: hidden;*/
+}
+.wmuSlider .wmuSliderWrapper article img {
+	max-width: 232px;
+	width: auto;
+	height: auto;
+	display:block;
+}
+/* Default Skin */
+.wmuSliderPagination {
+	z-index: 2;
+	position: absolute;
+	right:44%;
+	bottom:35px;
+}
+ul.wmuSliderPagination {
+	padding:0;
+}
+.wmuSliderPagination li {
+	float: left;
+	margin: 0 8px 0 0;
+	list-style-type: none;
+}
+.wmuSliderPagination a {
+	text-indent: -9999px;
+	display: block;
+	width: 30px;
+	height: 5px;
+	margin: 5px 6px;
+	background:#1c412a ;	
+}
+.wmuSliderPagination a.wmuActive {
+	background-color:coral;
+}
+.design{
+	background-color:#fff;
+	width:100%;
+	min-height:439px;
+	background-size:cover;
+	display:block;
+}
+.item-in{
+	text-align:center;
+	padding:2em 0 6em;
+}
+.item-in h5{
+        font-family: chawp;
+	font-size: 30px;
+	color: coral;
+	width: 50%;
+	margin: 0 auto;
+	font-weight: 300;
+	line-height: 1.3em;
+	padding: 1.2em 0 0.6em;
+}
+.item-in p{
+	font-size: 1.8em;
+    color: #777;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 300;
+    line-height: 1.3em;
+    padding: 0.2em 0 0.6em;
+    font-family:fb;
+}
+.item-in span{
+	font-size:1.5em;
+	color:coral;
+}
+.dotted{
+	margin:0 auto;
+}
+@media(max-width:1024px){
+.item-in p {
+	font-size: 1.6em;
+	width: 71%;
+}
+.wmuSliderPagination {
+	right: 42%;
+}
+}
+@media(max-width:768px){
+.design {
+	min-height: 373px;
+	padding: 1em 0;
+}
+.wmuSliderPagination {
+	right: 39%;
+}
+}
+@media(max-width:640px){
+.wmuSliderPagination {
+	right: 36%;
+}
+}
+@media(max-width:480px){
+
+.wmuSliderPagination {
+	right: 33%;
+}
+}
+@media(max-width:320px){
+
+.wmuSliderPagination {
+	right: 23%;
+}
+.design {
+	min-height: 196px;
+	padding: 0;
+}
+.item-in {
+	padding: 1em 0 4em;
+}
+}

@@ -1,0 +1,507 @@
+html,body,body div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: bottom;
+  background: transparent;
+}
+article,aside,figure,footer,header,hgroup,nav,section {
+  display: block;
+}
+.clearfix,section,.row {
+  *zoom: 1;
+}
+.clearfix:before,section:before,.row:before,.clearfix:after,section:after,.row:after {
+  display: table;
+  content: "";
+}
+.clearfix:after,section:after,.row:after {
+  clear: both;
+}
+.animate{
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+.nopad-t {
+  padding-top: 0 !important;
+}
+.nopad-b {
+  padding-bottom: 0 !important;
+}
+.nopad {
+  padding: 0 !important;
+}
+html {
+  background: #FFFFFF;
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: transparent;
+  font-size: 18px;
+  font-size: 1.8rem;
+  color: #111111;
+  text-rendering: optimizeLegibility;
+}
+.designer .description h1, .coder .description h1{
+  font-family: 'CHAWP';
+  margin-bottom: 8%;
+  color: #8fbc8f;
+  
+}
+
+
+.portfolio h1 {
+  line-height: 1.2em;
+  letter-spacing: -0.07em;
+  margin: 0;
+  color: #111111;
+  text-rendering: optimizelegibility;
+  font-weight: normal;
+  font-size: 32px;
+  font-size: 3.2rem;
+  border-bottom: #DDD solid 1px;
+  padding-bottom: 0.3em;
+  margin-bottom: 0.1em;
+  letter-spacing: -0.01em;
+}
+p {
+  margin-bottom: 1.4em;
+  line-height: 1.4em;
+}
+a {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #333333;
+}
+section.light{
+  overflow: hidden;
+  border-top: #FFF solid 1px;
+  padding: 3em 1.5em;
+  -webkit-box-shadow: inset 0px 30px 30px -30px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0px 30px 30px -30px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0px 30px 30px -30px rgba(0, 0, 0, 0.05);
+  border-bottom: #dddddd solid 1px;
+}
+img {
+  max-width: 100%;
+  position: relative;
+  margin-bottom: 2em;
+}
+#jpreOverlay,#qLoverlay {
+  background-color: #FFF;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 11;
+}
+.js #content,.js .js #coder-img,.js #designer-img,.js #coder,.js #designer,.js #coder-bg,.js #designer-bg,.js #face-img {
+  opacity: 0;
+}
+.face {
+  width: 100%;
+  position: relative;
+}
+.face .face-img {
+  display: block;
+  margin: 0px;
+}
+.face a {
+  color: #666666;
+  text-decoration: none;
+}
+.face .coder,.face .designer {
+  position: absolute;
+  width: 40%;
+  display: block;
+  z-index: 10;
+  height: 15%;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+.face .coder h1,.face .designer h1 {
+  font-size: 22px;
+}
+.face .designer {
+  left: 0;
+}
+.face .coder {
+  right: 0;
+  text-align: right;
+}
+.face .designer-img,.face .coder-img,.face .designer-bg,.face .coder-bg,.face .coder p,.face .designer p {
+  display: none;
+}
+@media only screen and (min-width: 321px) {
+  .face .coder h1,.face .designer h1 {
+    font-size: 26px;
+    font-size: 2.6rem;
+  }
+}
+@media only screen and (min-width: 376px) {
+  .face .coder h1,.face .designer h1 {
+    font-size: 30px;
+    font-size: 3rem;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .face .coder h1,.face .designer h1 {
+    font-size: 42px;
+    font-size: 4.2rem;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .face .coder h1,.face .designer h1 {
+    font-size: 47px;
+    font-size: 4.7rem;
+  }
+}
+@media only screen and (min-width: 750px) {
+  .face .coder,.face .designer {
+    width: 25%;
+    height: 35%;
+  }
+  .face .coder h1,.face .designer h1 {
+    font-size: 45px;
+    font-size: 4.5rem;
+  }
+  .face .coder .more,.face .designer .more {
+    display: none;
+  }
+  .face .coder p,.face .designer p {
+    display: block;
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin: 0px;
+  }
+}
+@media only screen and (min-width: 860px) {
+  .face .coder,.face .designer {
+    width: 30%;
+    height: 30%;
+  }
+  .face .coder h1,.face .designer h1 {
+    font-size: 58px;
+    font-size: 5.8rem;
+  }
+  .face .coder p,.face .designer p {
+    font-size: 17px;
+    font-size: 1.7rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .face .coder,.face .designer {
+    height: 40%;
+  }
+  .face .coder h1,.face .designer h1 {
+    font-size: 43px;
+  }
+  .face .coder .more,.face .designer .more {
+    display: inline;
+  }
+}
+@media only screen and (min-width: 1140px) {
+  .face {
+    width: 1040px;
+    height: 600px;
+    position: relative;
+  }
+  .face .coder,.face .designer {
+    width: 520px;
+    height: 600px;
+    top: 0px;
+    position: absolute;
+  }
+  .face .coder .description,.face .designer .description {
+    position: absolute;
+    top: 180px;
+    width: 270px;
+  }
+  .face .coder p,.face .designer p {
+    font-size: 18px;
+    font-size: 1.8rem;
+    line-height: 1.4em;
+  }
+  .face .coder {
+    text-align: left;
+    right: 0px;
+  }
+  .face .coder .description {
+    right: 0px;
+  }
+  .face .coder .arrow {
+    right: 0px;
+    background-position: 0px -751px;
+  }
+  .face .designer {
+    left: 0px;
+  }
+  .face .designer .description {
+    left: 0px;
+  }
+  .face .designer .arrow {
+    left: 0px;
+    background-position: 0px -892px;
+  }
+  .face .designer-img,.face .coder-img {
+    width: 420px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    background: url(../assets/images/sprite-home.png) 0 0 no-repeat;
+    display: block;
+    z-index: 1;
+  }
+  .face .designer-img {
+    background-position: 0px -600px;
+    left: 100px;
+  }
+  .face .coder-img {
+    background-position: 100% 0px;
+    right: 100px;
+  }
+  .face .designer-bg,.face .coder-bg {
+    width: 420px;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    background: url(../images/) 0 -1300px no-repeat;
+    display: block;
+  }
+  .face .designer-bg {
+    left: 100px;
+  }
+  .face .coder-bg {
+    right: 100px;
+    background-position: 100% -1300px;
+  }
+  .face .face-img {
+    display: none;
+  }
+}
+@media only screen and (min-width: 376px) {
+  h1 {
+    font-size: 60px;
+    font-size: 6rem;
+  }
+}
+@media only screen and (min-width: 668px) {
+  h1,.h1 {
+    font-size: 70px;
+    font-size: 7rem;
+  }
+  .portfolio h1,
+  .portfolio .h1 {
+    font-size: 48px;
+    font-size: 4.8rem;
+  }
+  section.light {
+    padding: 4.5em 5%;
+  }
+  img {
+    margin-bottom: 4em;
+  }
+}
+@media only screen and (min-width: 1024px) { 
+  p {
+    line-height: 1.4em;
+  }
+  .row {
+    clear: both;
+    max-width: 1040px;
+    margin: 0 auto;
+  }
+  .col-12 {
+    width: 100%;
+    margin: 0;
+  }
+  section.light{
+    padding: 6em 5%;
+  }
+  section.main,
+  .portfolio-main section.noise {
+    padding: 3em 5%;
+  }
+  .contact section:last-child {
+    padding-bottom: 6em !important;
+  }
+}
+@media only screen and (min-width: 1140px) {
+  p {
+    line-height: 1.6em;
+  }
+}
+
+
+
+
+
+/*cards*/
+
+.artGroup {
+  display: block;
+  position: relative;
+  float: left; 
+}
+.artGroup .cardF {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+}
+.artGroup .detail {
+  display: block;
+  position: absolute;
+  top:0px; 
+      left: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 3em 2em;
+}
+.artGroup .detail h3 {
+  font: 300 18px/1.1 'roboto', sans-serif;
+  text-align: center;
+  color: orange;
+}
+.artGroup .detail p {
+  font: 200 13px/1.2 'roboto', sans-serif;
+  text-align: left;
+  padding: 0 0.25em;
+}
+.artGroup.slide .detail { bottom: -364px; }
+.artGroup.flip {
+  -webkit-perspective: 800px;
+  perspective: 800px;
+}
+.artGroup.flip .artwork {
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.artGroup.flip .detail,.artGroup.flip .theFlip {
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+.artGroup.flip img,.artGroup.flip .icon i, .artGroup.flip .icon-text h4,.artGroup.flip .detail {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.artGroup.slide { overflow: hidden; }
+.artwork {
+  display: block; 
+      margin: -3em -2em;
+    width: 150%;
+    height: 200%;
+    padding: 3em 2em;
+}
+	.banner-bottom {
+		position: absolute;
+		left:  5.3%;
+		bottom: -215%;		
+		width: 82%;
+	}
+
+	.banner-grid.last{
+		margin-right:0;
+	}
+
+    .banner-grid.odd, .banner-grid.even{
+           padding: 2em 2em;
+    text-align: center;
+}
+.banner-grid.odd{
+      -moz-transform: rotateY(0deg) rotateZ(1.26deg) scale(1, 1) translateZ(1px);
+    -ms-transform: rotateY(0deg) rotateZ(1.26deg) scale(1, 1) translateZ(1px);
+    -webkit-transform: rotateY(0deg) rotateZ(1.26deg) scale(1, 1) translateZ(1px);
+    transform: rotateY(0deg) rotateZ(1.26deg) scale(1, 1) translateZ(1px);
+	}
+.banner-grid.even{	
+    -moz-transform: rotateY(0deg) rotateZ(-1.89deg) scale(1, 1) translateZ(1px);
+    -ms-transform: rotateY(0deg) rotateZ(-1.89deg) scale(1, 1) translateZ(1px);
+    -webkit-transform: rotateY(0deg) rotateZ(-1.89deg) scale(1, 1) translateZ(1px);
+    transform: rotateY(0deg) rotateZ(-1.89deg) scale(1, 1) translateZ(1px);
+}	
+.banner-grid.even .artwork ,.banner-grid.even .detail {
+ background:#efb27c;
+}
+.banner-grid.odd .artwork ,.banner-grid.odd .detail{
+  background: #546b35;
+  }
+.icon-text h4 {
+  font-size: 1.6em;
+  color: #fff;
+ font-weight: 400;
+}
+.icon-text p {
+  font-size: 0.9em;
+  color: #fff;
+  line-height: 1.7em;
+  margin: 0.5em 0;
+}
+.icon i {
+  color: #fff;
+  font-size: 2.3em;
+  text-align: center;
+}
+@media (max-width: 767px) {
+.banner-bottom {
+display:none;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.banner-cards{
+width:115%
+}
+  .banner-grid.odd, .banner-grid.even{
+        padding: 2em 2em;
+    margin-right: 1%;
+    text-align: center;
+    width: 19%;
+}
+.banner-bottom {
+		bottom: -17%;
+	}
+.artwork {
+    display: block;
+    margin: 0em -3em;
+    width: 150%;
+    height: 200%;
+    padding: 2em 1em;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+.banner-cards{
+width:112%
+}
+  .banner-grid.odd, .banner-grid.even{
+    margin-right: 3%;
+    width: 17%;
+}
+.banner-bottom {
+		bottom: -17%;
+	}
+}
+@media (min-width: 1200px) {
+.banner-cards{
+width:111%
+}
+  .banner-grid.odd, .banner-grid.even{
+    margin-right: 3%;
+    width: 17%;}
+.banner-bottom {
+		bottom: -17%;
+	}
+}

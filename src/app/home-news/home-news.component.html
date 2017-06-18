@@ -1,0 +1,29 @@
+
+        <div class="full-width didSec" id="loc" >
+            <div class="blend">
+            
+            <a id="nav-toggle" class="nav_slide_button" href="#"></a>
+            <section class="features text-center" id="features">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>News</h2>
+                            <div class="features-wrapper">
+                                <div class="col-md-4 col-sm-6 wp2 " *ngFor = "let n of news">
+                                    <div class="icon">
+                                        <img [src]="n.Image" class="img-rounded"     height= "150"
+ />
+                                    </div>
+                                    <h3>{{n.Title}}</h3>
+                                    <p class="desc">{{n.Description}}</p>
+                                </div>
+                                
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        </div>
+ 

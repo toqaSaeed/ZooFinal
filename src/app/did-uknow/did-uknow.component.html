@@ -1,0 +1,25 @@
+
+        
+	    <a id="nav-toggle" href="#"></a>       
+        <section class="features text-center section-padding" id="features">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="arrow">Did you know ?</h1>
+                <div class="features-wrapper" >
+                  <div class="col-md-4 col-sm-6 wp2 " *ngFor="let d of diduKnow" >
+                    <div class="icon">
+					             <img [src]="d.Image" class="img-rounded" style="height:150px;"/>
+                    </div>
+                    <h2>{{d.Title}}</h2>
+                    <p>{{d.Description}}</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+      <!--<script src="../assets/js/waypoints.min.js"></script>
+        <script src="../assets/js/didyouknow.js"></script>
+        <script>var cw = $('.icon img').width();$('.icon img').css({ 'height': cw + 'px'});</script>-->
+    

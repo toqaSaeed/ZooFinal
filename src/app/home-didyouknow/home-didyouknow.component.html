@@ -1,0 +1,30 @@
+<div class="content">
+    <div class="design">
+        <h2 class="text-center">Did You Know</h2>
+        <ul class="slides">
+            <div *ngFor="let d of diduKnow;let i=index">
+                <input type="radio" name="radio-btn" id="img-{{i+1}}" checked />
+                <li class="slide-container">
+                    <div class="slide">
+                        <img class="dotted img-circle" [src]="d.Image" height="150px" width="250px" />
+                        <h5>{{d.Title}}</h5>
+                        <p>{{d.Description}}</p>
+                        <!--<span>see more</span>-->
+                    </div>
+                </li>
+
+                <li class="nav-dots">
+                    <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                    <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                    <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                </li>
+            </div>
+        </ul>
+        <!--<div class=" item-in">
+            <img class="dotted img-circle" src="../../assets/images/7951381804_8dab5aaa76_b.jpg" height="200px" />
+            <h5>American Alligator</h5>
+            <p>The largest American alligator ever reported was supposedly 19.8 feet (6 meters) long</p>
+            <span>see more</span>
+        </div>-->
+    </div>
+</div>

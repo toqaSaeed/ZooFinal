@@ -1,0 +1,35 @@
+<div class="container">
+
+    <h2 class="text-center">Zoo Tickets</h2>
+ <div  id="search-form_3">
+              <input type="text" class="search_3" placeholder="Search Tickets" [(ngModel)]="SearchKey" >
+            </div>
+
+  <div class="cont">
+    	 
+     
+     <div *ngFor="let ticket of tickets | searchTickets:SearchKey "> 
+	<div class="layer" [style.background]="ticket.Color" >
+       <div class="date">
+        <span class="day"> {{ticket.Price}} </span>
+        <span class="month"> LE </span>
+       </div>
+       <div class="tck-info">
+         <h6>Ticket</h6>
+         <h4>{{ticket.Title}}</h4>
+         
+         <span>
+           <span class="icon">
+             <i class="fa fa-map-marker" aria-hidden="true"></i>
+           </span>
+           <span class="text">Giza Zoo<br>Charles De Gaulle, Giza, Egypt
+           </span>
+         </span>     
+       </div>
+      <!--<div class="btn">
+        <button>Buy Now</button>  
+      </div>      -->
+    </div>
+    </div>
+	</div>
+  </div>

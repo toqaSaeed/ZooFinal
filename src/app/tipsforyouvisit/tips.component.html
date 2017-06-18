@@ -1,0 +1,25 @@
+
+<div class="Head">
+        <!--<div class="overlay">
+        </div>-->
+</div>
+
+<div class="container" style="margin-top: 30px">
+     <h1 class="text-center">Tips for your visit</h1>
+    <div class="panel-group col-lg-8 col-md-10" id="accordion"
+     *ngFor="let item of data">
+		<div class="icon col-md-3 col-xs-4 f-icon"><i class="{{item.Image}} shadow"></i></div>	
+        <div class="faqHeader">			
+		{{item.Title}}
+		</div>
+        <div class="panel panel-default">
+            
+            <div id="collapseTen" class="panel-collapse collapse in">
+                <div class="panel-body">
+                   {{item.Description}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

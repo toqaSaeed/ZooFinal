@@ -1,0 +1,83 @@
+   <div class="banner-bottom " >
+        <div class="container banner-cards">
+            <div class="banner-bot-grids">
+                <div class="col-md-3 hidden-md hidden-sm hidden-xs  banner-grid even artGroup slide" >
+                    <div class="artwork" *ngFor="let z of zoos">
+                        <div class="icon">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+
+                        </div>
+                        <div class="icon-text">
+                            <h4>Openning Times</h4>
+                        </div>
+                        <div class="detail font" >
+                            8:30 AM
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 hidden-md hidden-sm hidden-xs  banner-grid odd artGroup slide">
+                    <div class="artwork"> 
+                        <div class="icon">
+                           <i class="fa fa-ticket" aria-hidden="true"></i>
+
+                        </div>
+                        <div class=" icon-text">
+                            <h4>Tickets</h4>
+                        </div>
+                        <a [routerLink]="['/Tickets']"><div class="detail font">
+                          Click to See all the Tickets 
+
+                        </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 hidden-md hidden-sm hidden-xs banner-grid even artGroup slide">
+                    <div class="artwork">
+                        <div class="icon">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon-text">
+                            <h4>Directions</h4>
+                        </div>
+                        <a [routerLink]="['/contact']"><div class="detail font">
+                           Directions from Here
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 hidden-md hidden-sm hidden-xs banner-grid odd artGroup slide">
+                    <div class="artwork">
+                        <div class="icon">
+                            <i class="fa fa-map" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon-text">
+                            <h4>Zoo Map</h4>
+                        </div>
+                        <div class="detail font">
+                            Click to show the Map
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 hidden-md hidden-sm hidden-xs banner-grid even artGroup slide last">
+                    <div class="artwork">
+                        <div class="icon">
+                            <i class="fa fa-picture-o" aria-hidden="true"></i>
+
+                        </div>
+                        <div class="icon-text">
+                            <h4>Zoo Gallery</h4>
+                        </div>
+                        <a [routerLink]="['/gallery']">
+                        <div class="detail font">
+                          Click to Go to Our Gallery 
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>

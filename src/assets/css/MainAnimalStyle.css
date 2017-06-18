@@ -1,0 +1,210 @@
+@font-face {
+    font-family: CHAWP;
+    src: url(../assets/fonts/chawp.otf);
+
+}
+body{
+    font-family: 'chawp';
+    padding: 0
+}
+
+.AnimalMain .headPic{
+    
+    background:url(../assets/images/sandy.jpg) no-repeat center fixed;
+    background-size: cover;
+    
+    }
+.headPic .overlay{
+    background-color: rgba(0, 0, 0, 0.11);
+    padding-bottom: 6%;
+    padding-top: 6%;
+}
+.image{
+        background-color: rgba(14, 14, 14, 0.38);
+    width: 100px;
+    border-radius: 50%;
+}
+.headPic .row .col img{
+width: 100px;
+height: 100px;
+}
+
+.mammal , .Birds , .Reptiles , .Fishes , .Babies{
+    height: 300px;
+    padding-top: 3%;
+}
+.mammal{
+    background:url(../assets/images/Zebra-Texture.jpg) no-repeat center fixed;
+    background-size: cover;
+    filter: grayscale(1);
+
+
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.77);
+    padding: 3%
+}
+
+.Birds{
+    background:url(../assets/images/8e74733f9b17ed5e932c1070ec969dff.jpg) no-repeat center fixed;
+         background-size: cover;
+
+    filter: grayscale(1);
+
+}
+.Fishes{
+     background:url(../assets/images/691d9bd1c3010e117647a959818db452.jpg) no-repeat center fixed;
+     background-size: cover;
+     filter: grayscale(1);
+}
+
+.Babies{
+    background:url(../assets/images/images.jpg) no-repeat center fixed;
+     background-size: cover;
+     filter: grayscale(1);
+}
+
+.mammal .brief , .Birds .brief , .Reptiles .brief , .Fishes .brief , .Babies .brief{
+    font-size: xx-large;
+    color: white;
+
+}
+.mammal span , .Birds span , .Reptiles span , .Fishes span , .Babies span{
+    font-family:'CHAWP';
+    font-size: 50px;
+    color: white;
+}
+
+.MammalAnimal , .Bird , .Reptile , .Fish , .Baby{
+    padding: 2%;
+    background-color: rgba(255, 233, 150, 0.16);
+
+}
+
+
+
+
+
+
+.Reptiles{
+        background:url(../assets/images/e7e36471b60235d1b532195bcb6e127d.jpg) no-repeat center fixed;
+        background-size: cover;
+        filter: grayscale(1);
+
+}
+/*.MammalAnimal .overlay{
+    background-color: rgba(255, 255, 255, 0.56);
+}*/
+ /*.pre-begin{
+    height: 100px;
+    width: 400px;
+    margin-top: -4%;
+    padding-top: 5px;
+    border-left: 1px solid rgba(158, 158, 158, 0.44);
+    border-right: 1px solid rgba(158, 158, 158, 0.44);
+    box-shadow: 4px 0 6px -5px rgb(51, 51, 51), -4px 0 6px -5px #333;
+}
+.pre-begin{
+    background-color: coral;
+}*/
+
+
+
+
+
+
+/*.AnimalMain .container .begin .header{
+      height:70px;
+      background-color:darkcyan; 
+      margin-bottom:5%; 
+      border:1px solid darkgrey;
+      border-radius:10px;
+      
+
+}*/
+
+ .additional .didUKnow{
+height: 200px;
+background:url(../assets/images/45515408-giraffe-wallpaper.jpg) no-repeat center fixed;
+background-size: cover;
+}
+
+ .additional .didUKnow .layer{
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.46);
+ }
+
+ .additional h3 ,.additional .layer h3 , .additional .layer h1{
+/*font-family: 'Shrikhand', cursive;*/
+/*font-family: 'Boogaloo', cursive;*/
+font-family: 'Oleo Script', cursive;
+/*font-family: 'Special Elite', cursive;*/
+margin-bottom: 2%
+}
+
+
+.additional p {
+/*font-family: 'Shrikhand', cursive;*/
+/*font-family: 'Boogaloo', cursive;*/
+font-size: 24px;
+font-weight: bold;
+font-family: 'Oleo Script', cursive;
+/*font-family: 'Special Elite', cursive;*/
+margin-bottom: 2%
+}
+ .additional .layer h3 , .additional .layer h1{
+    color: #FFF;
+
+
+ }
+ .additional .layer{
+    padding-top: 5%
+ }
+
+
+ .row{
+    margin-bottom: 3%
+}
+
+.begin .row .col img{
+    border: 2px solid coral; 
+}
+ .row .col img{
+     width: 200px;
+     height: 190px;
+     padding: 2px;
+     border: 2px solid papayawhip; 
+     
+}
+ .begin .row .col img:hover{
+         width: 205px;
+    height: 200px;
+        filter: gray;
+
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+        -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;  
+
+}
+.begin  .row .col p{
+    color:coral;
+
+}
+ .row .col p{
+    font-family: 'Courgette', cursive; 
+    font-size: x-large;
+/*
+font-family: 'Indie Flower', cursive;
+font-family: 'Eagle Lake', cursive;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Wendy One', sans-serif;
+
+*/
+}
+
+
+  

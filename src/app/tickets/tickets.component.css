@@ -1,0 +1,357 @@
+body{
+  background-color:#fff !important;
+}
+*{
+  box-sizing:border-box;
+  font-family: 'Varela Round', sans-serif;
+}
+h3,h4{
+  margin:3px 0 0 0;
+}
+h4 {
+    font-size: 22px !important;
+    margin: 22px 0px !important;
+	}
+h6{
+  color:#A5A5A5;
+  margin:0 0 0 0
+}
+
+#line{
+  text-decoration:line-through
+}
+
+
+.p{
+  display:block;
+  position:relative;
+  height:50px;
+  width:100%;
+  line-height:50px
+  
+}
+.p::before{
+  content:"";
+  height:100%;
+  width:1%;
+  position:absolute;
+  background-color:#FFC703;
+  left:-20px;
+  top:0;
+  
+}
+.layer{
+    background: rgba(255,255,255,0.4);
+    width: 100%;
+    height: 100%;
+}
+.cont > div{
+  height:172px;
+  width:91%;
+  background-image: url(../../assets/images/oldT.jpg);
+	background-repeat: no-repeat;
+  background-size: cover;
+  float:left;
+  margin:10px 0 0 20px;
+  display:inline-block;
+  border-radius:4px;
+}
+
+.cont > div .date{
+  height:100%;
+  width:62px;
+  border-right: 2px dashed #666;
+  display:inline-block;
+  position:relative;
+  float:left;
+}
+
+.cont > div .date::before
+{
+     content: "";
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    display: block;
+    background-color: #fff;
+    border-radius: 50%;
+    top: -15px;
+    left: 46px;
+}
+.cont > div .date::after{
+  content:"";
+  position:absolute;
+  height:30px;
+  width:30px;
+  display:block;
+  background-color:#fff;
+  border-radius:50%;
+  top:90%;
+  left:46px
+}
+
+.cont > div .date .day{
+  display:block;
+  font-size:33px;
+  width:100%;
+  text-align:center;
+  margin-top:50px;
+  position:absolute;
+  font-weight:bold
+}
+
+.cont > div .date .month{
+  display:block;
+  font-size:15px;
+  width:100%;
+  text-align:center;
+  position:absolute;
+  margin-top:105px;
+  font-weight:bold;
+  color:#666;
+}
+.fa-calendar{
+font-size: 20px;
+}
+
+.cont > div .tck-info{
+  width:74%;
+  float:left;
+  padding:15px 0PX 0px 20px;
+}
+
+.cont > div .tck-info > span{
+  display:block;
+  height:40px;
+  width:100%;
+  color:#666;
+  margin-top:0px
+}
+.cont > div .tck-info > span .icon{
+  width:10%;
+  font-size:22px;
+  line-height:25px;
+  display:inline-block;
+  float:left;
+}
+
+.cont > div .tck-info > span .text{
+  display:block;
+  height:100%;
+  width:84%;
+  margin-left:30px;
+  text-transform:uppercase;
+  font-size:12px
+}
+
+.cont > div .btn,.cont > div .btn-2{
+  width:107px;
+  float:right;
+  display:flex;
+  align-items:flex-end;
+}
+
+.cont > div .btn button,.cont > div .btn-2 button{
+  width:90%;
+  height:33px;
+  background-color:#b5b5b5;
+  border: 0;
+  margin-bottom:10px;
+  color:snow;
+  font-weight:bold;
+  outline:none
+}
+.cont > div .btn-2 button{
+  background-color:#0274CC;
+}
+
+.cont > div button:hover{
+  cursor:pointer;
+  background-color:#111;
+  transition:.5s all ease
+}
+@media (max-width: 479px){
+.cont > div {
+    height: 235px;}
+.cont > div .tck-info {
+       width: 57%;
+    float: left;
+    padding: 16px 0PX 32px 13px;}
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+.cont > div .tck-info {
+    width: 74%;}
+	.cont > div {
+    width: 74%;
+	margin-left:10%;
+	}
+	h4 {
+	  white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.cont > div {
+    width: 47%;
+	}
+	h4 {
+	  white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+	}
+	}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.cont > div {
+    height: 182px;}
+.cont > div .tck-info {
+    width: 69%;
+    float: left;
+    padding: 16px 0PX 16px 13px;}
+.cont > div{
+  width:31%;
+}
+	h4 {
+	  white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+	}
+}
+@media (min-width: 1200px) {
+.cont > div .tck-info > span .text{
+  width:88%;
+}
+h4 {
+	  white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+	}
+.cont > div{
+  width:31%;
+}
+}
+
+
+
+#search-form_3 {
+background: rgba(253, 168, 86, 0.61); /* Fallback color for non-css3 browsers */
+width: 50%;
+margin: 10px auto;
+margin-bottom: 3%;
+
+/* Gradients */
+background: -webkit-gradient( linear,left top, left bottom, color-stop(0, rgb(243,243,243)), color-stop(1, rgb(225,225,225)));
+background: -moz-linear-gradient( center top, rgb(243,243,243) 0%, rgb(225,225,225) 100%);
+
+/* Rounded Corners */
+border-radius: 17px;
+-webkit-border-radius: 17px;
+-moz-border-radius: 17px;
+
+/* Shadows */
+box-shadow: 1px 1px 2px rgba(0,0,0,.3), 0 0 2px rgba(0,0,0,.3);
+-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,.3), 0 0 2px rgba(0,0,0,.3);
+-moz-box-shadow: 1px 1px 2px rgba(0,0,0,.3), 0 0 2px rgba(0,0,0,.3);
+}
+
+/*** TEXT BOX ***/
+.search_3{
+background: #fafafa; /* Fallback color for non-css3 browsers */
+
+/* Gradients */
+background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(250,250,250)), color-stop(1, rgb(230,230,230)));
+background: -moz-linear-gradient( center top, rgb(250,250,250) 0%, rgb(230,230,230) 100%);
+border: 0;
+border-bottom: 1px solid #fff;
+border-right: 1px solid rgba(255,255,255,.8);
+font-size: 16px;
+    margin: 7px;
+    padding: 7px;
+    width: 98%;
+
+/* Rounded Corners */
+border-radius: 17px;
+-webkit-border-radius: 17px;
+-moz-border-radius: 17px;
+
+/* Shadows */
+box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+-webkit-box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+-moz-box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+}
+
+/*** USER IS FOCUSED ON TEXT BOX ***/
+.search_3:focus{
+outline: none;
+background: #fff; /* Fallback color for non-css3 browsers */
+
+/* Gradients */
+background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(255,255,255)), color-stop(1, rgb(235,235,235)));
+background: -moz-linear-gradient( center top, rgb(255,255,255) 0%, rgb(235,235,235) 100%);
+}
+
+/*** SEARCH BUTTON ***/
+.submit_3{
+background: coral;/* Fallback color for non-css3 browsers */
+/* Gradients */
+border: 0;
+color: #eee;
+cursor: pointer;
+float: right;
+font: 16px 'Raleway', sans-serif;
+font-weight: bold;
+height: 30px;
+margin: 11px 11px 0;
+text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+width:20%;
+outline: none;
+
+/* Rounded Corners */
+border-radius: 30px;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+
+/* Shadows */
+box-shadow: -1px -1px 1px rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.4);
+-moz-box-shadow: -1px -1px 1px rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.2);
+-webkit-box-shadow: -1px -1px 1px rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.4);
+}
+/*** SEARCH BUTTON HOVER ***/
+.submit_3:hover {
+background: coral;
+}
+.submit_3:active {
+background:coral; /* Fallback color for non-css3 browsers */
+
+/* Gradients */
+background: coral;
+}
+@media(min-width:767px){
+    .col-sm-offset-0{
+        margin-left: 0% !important;
+    }
+}
+@media(max-width:767px){
+    #search-form_3{
+        width: 75% !important;       
+    }
+}
+ @media(max-width:480px){
+    #search-form_3{
+        width: 100% !important;
+    }
+    .search_3{
+        width:55%;
+    }
+    .submit_3{
+        width:28%;
+    }
+}
+.container h2{
+	font-family: 'CHAWP';
+	margin-bottom: 5%;
+	color: #3c763d;
+  font-size: 35px;
+}

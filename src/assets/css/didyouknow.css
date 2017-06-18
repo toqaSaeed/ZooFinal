@@ -1,0 +1,53 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
+
+html { font-size: 100%; /* 1 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+-ms-text-size-adjust: 100%; /* 2 */ }
+html { -webkit-font-smoothing: antialiased;  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
+
+body {
+     margin: 0;
+     background-color:rgba(255, 233, 150, 0.16)  
+     }
+
+h2 { 
+    font-size: 1.5em;
+    margin: 0.83em 0;
+    /*font-family: 'Myriad'*/
+     }
+b, strong { font-weight: bold; }
+p{ margin: 1em 0; }
+small { font-size: 75%; }
+img { border: 0; /* 1 */
+-ms-interpolation-mode: bicubic; /* 2 */ }
+p {  word-spacing: 1px; line-height: 25px; font-size: 14px; }
+h2 { font-size: 22px; color: #3c763d; font-weight: bold; text-transform: capitalize}
+h2::after { content: " "; border: solid 2px coral; display: block; width: 50px; margin: 25px auto; }
+.section-padding { padding: 90px 0 100px }
+/* ==========================================================================
+Features
+========================================================================== */
+h1.arrow {
+    font-family: 'CHAWP';
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #3c763d;
+    letter-spacing: 1px;
+    background: url(../../assets/images/h1-bg.png) no-repeat center bottom;
+    padding-bottom: 30px;
+    font-weight: bold;
+    }
+.features-wrapper, .team-wrapper { margin: 70px 0 0; }
+
+.icon img { 
+width: 80%; 
+line-height: 175px;
+ max-width: 100%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto 50px; }
+
+/* ==========================================================================
+Waypoints
+========================================================================== */
+/*.wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }*/
+.bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
+.delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
+.delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }

@@ -1,0 +1,34 @@
+ .homeAnimalSection {
+ background:url(../../assets/images/Grass-PNG-Clipart.png) no-repeat bottom;   
+     background-size: cover;
+    background-position-y: 60%;
+}
+
+/*.animalname{
+    width: 200px;
+    height: 150px;
+    margin-left: 25%;
+    position: relative;
+    margin-top: 0%;
+}
+.animalname p{
+    font-family:'Agency FB';
+    color:black;
+}*/
+
+.homeAnimalSection h2{
+  margin-top: 5%;
+    }
+    .homeAnimalSection h2 {
+ 
+    color:#1c412a; 
+    line-height: 1;
+    }
+
+.homeAnimalSection h2{
+    font-family:chawp;  
+     font-size: 3em;
+}
+
+h2::after { content: " "; border: solid 2px #1c412a; display: block; width: 50px; margin: 25px auto; }
+.section-padding { padding: 90px 0 100px }

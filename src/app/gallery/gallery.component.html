@@ -1,0 +1,107 @@
+<div class="container">
+    <div class="">
+        <h2>Zoo Gallery</h2>
+    </div>
+
+    <div>
+        <button class="btn btn-primary filter-button" data-filter="all">All</button>
+        <button class="btn btn-default filter-button" data-filter="Places">Places</button>
+        <button class="btn btn-default filter-button" data-filter="Animals">Animals</button>
+    </div>
+    <br/>
+
+    <div class="row">
+        <div class="col-md-3 filter Places" *ngFor="let p of places">
+            <div class="each-item" *ngIf="p.ZoneType._id == '593d1562f42aa705e01002d2'">
+                <img class="port-image" [src]="p.Image" />
+                <div class="cap1">
+                    <h3 class="text-center">{{p.Title}}</h3>
+                    <p class="desc">{{p.Description}}</p>
+                </div>
+                <div class="cap2">
+                    <a [routerLink]="['/EntertainmentPlaces']">
+                        <p class="link" class="text-center">Visit</p>
+                    </a>
+                </div>
+            </div>
+            <div class="each-item" *ngIf="p.ZoneType._id == '593d15f0f42aa705e01002d3'">
+                <img class="port-image" [src]="p.Image" />
+                <div class="cap1">
+                    <h3 class="text-center">{{p.Title}}</h3>
+                    <p class="desc">{{p.Description}}</p>
+                </div>
+                <div class="cap2">
+                    <a [routerLink]="['/HistoricalPlaces']">
+                        <p class="link" class="text-center">Visit</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 filter Animals" *ngFor="let a of animals">
+            <div class="each-item">
+                <img class="port-image" [src]="a.Image" />
+                <div class="cap1">
+                    <h3 class="text-center">{{a.NickName}}</h3>
+                </div>
+                <div class="cap2">
+                    <a [routerLink]="['/animaldetails', a._id]">
+                        <p class="text-center">Visit</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--<div class="col-md-3 filter webdesign">
+            <div class="each-item">
+                <img class="port-image" src="http://danielsitek.cz/pic/small/daniel-sitek-portfolio_small.jpg"/>
+                <div class="cap1">
+                    <h3>Car show</h3>
+                    <p>A car showroom for all verities of cars to display</p>
+                </div>
+                <div class="cap2">
+                    <p class="text-center">Visit</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3 filter graphic Animals">
+            <div class="each-item">
+                <img class="port-image" src="http://101bestwebsites.com/public/images/entry_images//2009/05/14/medium_www.matthiasdittrich.com.jpg"/>
+                <div class="cap1">
+                    <h3>Car show</h3>
+                    <p>A car showroom for all verities of cars to display</p>
+                </div>
+                <div class="cap2">
+                    <p class="text-center">Visit</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3 filter webdesign graphic">
+            <div class="each-item">
+                <img class="port-image" src="http://paperhaus.com/images/products/shrapnel-design-handmade-double-thick-screwpost-portfolio-cover-11x14-landscape-black-anodized-aluminum-14231_detail.jpg"/>
+                <div class="cap1">
+                    <h3>Car show</h3>
+                    <p>A car showroom for all verities of cars to display</p>
+                </div>
+                <div class="cap2">
+                    <p class="text-center">Visit</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-3 filter photo">
+            <div class="each-item">
+                <img class="port-image" src="http://4.bp.blogspot.com/_IDQ_mBDYk9I/SsON_Or-mGI/AAAAAAAAAEs/0AchAjEekYU/s400/Portfolio-idea-3.jpg"/>
+                <div class="cap1">
+                    <h3>Car show</h3>
+                    <p>A car showroom for all verities of cars to display</p>
+                </div>
+                <div class="cap2">
+                    <p class="text-center">Visit</p>
+                </div>
+            </div>
+        </div>-->
+    </div>
+</div>

@@ -1,0 +1,26 @@
+.Content .MainSection{
+    height: 500px;
+    background: url(../assets/images/p1068681395-3.jpg) no-repeat  fixed;
+    background-size: cover;
+}
+
+ .pre-begin{
+    height: 100px;
+    width: 400px;
+    background-color: #fff;
+    margin-top: -6%;
+    margin-bottom: 10%;
+    padding-top: 5px;
+    border-left: 1px solid rgba(158, 158, 158, 0.44);
+    border-right: 1px solid rgba(158, 158, 158, 0.44);
+    				box-shadow: 4px 0 6px -5px rgb(51, 51, 51), -4px 0 6px -5px #333;
+    /*box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.12), -12px 0 8px -4px rgba(31, 73, 125, 0.12);*/
+}
+
+.mammal{
+    height: 300px;
+    background-color: coral;
+}
+.mammal.pre-begin{
+    background-color: coral;
+}

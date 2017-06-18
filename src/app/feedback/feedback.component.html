@@ -1,0 +1,69 @@
+<!-- Top content -->
+<div class="top-content">
+
+    <div class="inner-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 text">
+                    <div class="description">
+                        <h1 class="text-center">
+                            We <i class="fa fa-heart" style="color:coral" aria-hidden="true"></i> to hear from you
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 form-box">
+                    <div class="form-top">
+                        <h3>Share us with your feedback</h3>
+                        <p>What is going on your mind</p>
+                    </div>
+                    <div class="form-bottom contact-form">
+                        <form [formGroup]="feedback" (ngSubmit)="postMessage(feedback.value)">
+                            <div class="form-group">
+                                <input type="text" [formControl]="feedback.controls['Name']" name="Name" placeholder="Name..." class="contact-email form-control"
+                                    id="contact-email">
+                                <div *ngIf="feedback.controls['Name'].hasError('required') && feedback.controls['Name'].touched" class="alert alert-danger">
+                                    You must include a first name.
+                                </div>
+                                <div class="alert alert-danger" *ngIf="feedback.get('Name').hasError('minlength') && feedback.get('Name').touched">
+                                    The name must not be less than 4 characters.
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" [formControl]="feedback.controls['Mail']" name="email" placeholder="Email..."
+                                 class="contact-email form-control"  id="contact-email">
+                                <div *ngIf="feedback.controls['Mail'].hasError('required') && feedback.controls['Mail'].touched" class="alert alert-danger">You must include your email.</div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" [formControl]="feedback.controls['Subject']" name="subject" placeholder="Subject..." class="contact-subject form-control"
+                                    id="contact-subject">
+                            </div>
+                            <div class="form-group">
+                                <select class="contact-subject form-control" [formControl]="feedback.controls['feedbackType']">
+                                        <option  class="contact-subject form-control" value="0" selected>Comment</option>
+                                        <option class="contact-subject form-control" value="1">Complaint</option>
+                                        <option  class="contact-subject form-control" value="2">Suggestion</option>
+                                        <option class="contact-subject form-control" value="3">Question</option>
+                                    </select>
+                                <div *ngIf="feedback.controls['feedbackType'].hasError('required') && feedback.controls['feedbackType'].touched" class="alert alert-danger">You must select a type for feedback.</div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <textarea name="message" [formControl]="feedback.controls['Message']" placeholder="Message..." class="contact-message form-control"
+                                    id="contact-message"></textarea>
+                                <div *ngIf="feedback.controls['Message'].hasError('required') && feedback.controls['Message'].touched" class="alert alert-danger">You must include your message before sending.</div>
+                            </div>
+
+                            <button type="submit" [disabled]="!feedback.valid" class="btn btn-lg" >Send message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+</div>

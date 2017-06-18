@@ -1,0 +1,26 @@
+.container .org .col img{
+ width: 100px;
+ height: 100px;
+ float: left;
+}
+
+.container .org .col{
+    margin-bottom: 3%
+}
+h3{
+    font-family: 'CHAWP';
+    color:#3c763d;
+    margin-bottom: 5%;
+}
+.container .org .col .details{
+   margin-left: 13%
+
+}
+
+.container .org .col .details h5{
+    color: orange
+}
+
+.container .org .col .details .url{
+    color: lightskyblue;
+}

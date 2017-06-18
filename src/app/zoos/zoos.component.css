@@ -1,0 +1,151 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
+@import url('https://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700');
+
+
+@font-face{
+	font-family: 'chawp';
+	src: url('../../assets/fonts/chawp.otf')
+}
+h2 {
+	font-size: 36px;
+}
+h5 {
+	font-size: 24px;
+}
+
+
+
+h2{
+	margin: 0 0 30px;
+    font-family: 'chawp';
+    font-weight: 400;
+	color: #111;
+}
+h5 {
+    margin: 0 0 30px;
+    /*font-family: 'myriad';*/
+    font-weight: 400;
+	color: #111;
+}
+
+
+p {
+    margin: 0 0 20px;
+
+}
+
+a {
+    color: #666;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+
+.divider-header {
+	display: block;
+	width: 40px;
+	height: 2px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+/* margins */
+.marginbot-50{margin-bottom:50px !important;}
+
+/* ===========================
+--- General sections
+============================ */
+
+.home-section {
+    padding-top: 100px;
+    padding-bottom: 110px;
+	display:block;
+    position:relative;
+    z-index:120;
+}
+
+.section-heading h2 {
+	font-size: 24px;
+	letter-spacing: 1px;
+	/*text-transform: uppercase;*/
+	margin-bottom: 10px;
+}
+
+.section-heading p {
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 1.6em;
+}
+
+.color-dark .section-heading h2 {
+	color: coral;
+}
+.color-dark .section-heading p {
+	color: #444;
+}
+.color-dark .divider-header {
+	background: #666;
+}
+
+/* --- section bg var --- */
+
+.bg-gray {
+}
+
+/* ===========================
+--- Services
+============================ */
+.service-box {
+	background: #fff;
+	border-bottom: 2px solid #f7f7f7;
+	padding: 40px 20px;
+}
+
+.service-box:hover {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+	margin-top: -20px;
+}
+
+.service-icon {
+	margin-bottom: 20px;
+}	
+
+.service-desc h5 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 10px;
+	    /*font-family: 'Myriad';*/
+    color: coral;
+}
+.service-desc .divider-header {
+	margin-bottom: 30px;
+}
+
+/* ===========================
+--- default css
+============================ */
+
+a:hover,
+a:focus {
+    color: #8fbc8f;
+}
+
+.service-box:hover {
+	border-bottom: 2px solid #8fbc8f;
+}
+
+.btn-skin {
+  color: #fff;
+  background-color: #8fbc8f;
+  border-color: #8fbc8f ;
+}

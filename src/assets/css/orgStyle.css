@@ -1,0 +1,9 @@
+.organization{
+	height: 600px;
+	background-color: #090c1d
+}
+
+.organization .org img{
+	width: 80px;
+	height: 80px;
+}

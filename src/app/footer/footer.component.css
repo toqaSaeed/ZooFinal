@@ -1,0 +1,156 @@
+
+        .contact_section{
+	margin:0 0 60px 0;
+	}
+	
+
+/* Contact
+---------------------------------*/
+.main-section.contact{
+	padding:90px 0 100px;
+}
+.main-section.footer{
+	     padding: 72px 0 1px ;
+}
+.main-section.contact{
+	background:url(../../assets/images/bg-map.png) left 190px no-repeat;
+}
+
+
+.contact_section{
+	margin:0 0 60px 0;
+	}
+
+  	
+.contact_block{
+	text-align:center;
+	}
+	
+.contact_block_icon{
+    border-radius: 50%;
+    height: 75px;
+	width:75px;
+	margin:0px auto 20px;
+	}
+.contact_block_icon.icon2{
+	border-color:coral;
+	}
+.contact_block_icon.icon3{
+	border-color:coral;
+	}
+	.contact_block_icon.icon4{
+		border-color:coral;
+	}
+.contact_block_icon span {
+    background: none repeat scroll 0 0 coral;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    display: block;
+    height: 100%;
+    width: 100%;
+}	
+.contact_block_icon.icon2{
+	border-color:coral;
+	}
+.contact_block_icon.icon2 span{
+	background:coral;
+	}
+.contact_block_icon.icon3{
+	border-color:coral;
+	}
+.contact_block_icon.icon3 span{
+	background:coral;
+	}
+.contact_block_icon.icon4{
+		border-color:coral;
+	}
+.contact_block_icon.icon4 span{
+	background:coral;
+	}
+.contact_block_icon i {
+    color: #fff;
+    font-size: 36px;
+    margin-top: 0;
+    position: relative;
+    top: 15px;
+    z-index: 20;
+}
+.contact_block span{
+	display:block;
+	font-size:16px;
+	color:#ffffff;
+	line-height:20px;
+	}
+	
+.contact_block span a{
+	display:block;
+	font-size:16px;
+	color:#ffffff;
+	line-height:20px;
+	}
+
+
+.contact-info-box{
+	font-size:15px;
+	margin:0 0 14px 68px;
+	padding-left:0;
+	
+}
+
+/* Footer
+---------------------------------*/
+.footer_section{ background:url(../../assets/images/pattern_bg.jpg) repeat left top;
+}
+  /* Wrappers */
+
+	.footer-wrapper {
+		background: #282b34 url("../../assets/images/overlay.png");
+		color: #eee;
+		color: rgba(255, 255, 255, 0.5);
+            margin-top: 4%;
+            height: 350px;
+	}
+    
+      		.footer-wrapper {
+				padding-top: 3em;
+			}
+
+
+  /* Desktop + Tablet */
+
+	@media screen and (min-width: 737px) {
+    .wrapper {
+				padding: 0;
+			}
+  }
+
+  /* Tablet Only */
+
+	@media screen and (min-width: 737px) and (max-width: 1200px) {
+
+		/* Wrappers */
+
+			.wrapper {
+        height:300px;
+				padding: 4em 0 7em 0;
+			}
+
+  }
+
+/* Mobile Only */
+
+
+
+	@media screen and (max-width: 736px) {
+  
+		/* Wrappers */
+
+			.wrapper {
+				padding: 15px 15px 5em 15px;
+			}
+      
+			#footer-wrapper {
+				padding-top: 3em;
+			}
+  
+  }

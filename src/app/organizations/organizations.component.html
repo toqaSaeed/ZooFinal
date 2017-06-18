@@ -1,0 +1,17 @@
+
+
+<section class="container" style="padding-top: 2%;">
+  <h3 class="text-center"> Our Organizations</h3>
+
+<div class="row org">
+  <div class="col col-lg-12 col-md-12 col-sm-12" *ngFor="let p of components">
+  <img [src]="p.Image">
+  <div class="details"><h5>{{p.Title}}</h5>
+  <p>{{p.Description}}</p>
+  <p class="url">{{p.Url}}</p>
+  </div>
+</div>
+</div>
+
+
+</section>

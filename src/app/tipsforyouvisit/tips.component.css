@@ -1,0 +1,89 @@
+
+.faqHeader {
+    font-size: 25px;
+    margin-left: 70px;
+    margin-bottom: 25px;
+    margin-top: 42px;
+    /*font-family: 'Myriad';*/
+     color: #3c763d;
+    }
+    
+    .panel-heading [data-toggle="collapse"]:after {
+        font-family: 'Glyphicons Halflings';
+        content: "\e072"; /* "play" icon */
+        float: right;
+        color: #1CD5B4;
+        font-size: 18px;
+        line-height: 22px;
+        /* rotate "play" icon from > (right arrow) to down arrow */
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+
+    .panel-heading [data-toggle="collapse"].collapsed:after {
+        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        color: #1CD5B4;
+    }
+
+	.icon{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    max-width: 100%;
+    background:coral;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    display: block;
+    color: #fff;
+    font-size: 27px;
+    text-align: center;
+    position: relative;
+    margin: 35px auto 10px;
+	}
+	.page-header {
+    margin: 40px 0 0px
+    }
+      .Head .overlay{
+          height: 450px;
+          background-color:rgba(96, 125, 139, 0.33);
+      }
+   .container h1{
+          font-family: 'CHAWP';
+          color: #3c763d;
+   }
+
+    .Head{
+        height: 450px;
+        background: url(../../assets/images/source.gif) fixed no-repeat center;
+             background-size: cover;
+                 background-position-y: -7%;
+
+
+    }
+	.shadow{
+	    text-shadow:coral 1px 1px,
+          coral 2px 2px,
+          coral 3px 3px,
+           coral 4px 4px,
+            coral 5px 5px;
+		}
+		@media (max-width: 991px) {
+		.f-icon {
+   margin: -6px auto 10px;
+   }}
+
+   i{
+       margin: 0 auto;
+   }
+
+  

@@ -1,0 +1,62 @@
+  @font-face {
+    font-family: 'chawp';
+    src: url('../../assets/fonts/chawp.ttf') format('truetype');
+}
+.didSec{
+background: url('../../assets/images/fur.jpg') no-repeat center fixed ;
+background-size: cover;
+}
+
+.full-width {
+    width: 100%;
+    height:590px;
+    background-repeat: no-repeat;
+    background-color: #fffffa;
+  
+}
+
+.features h2{
+  margin-top: 5%;
+    }
+    .features h2 {
+ 
+    color:coral; 
+    line-height: 1;
+    }
+
+.features h2{
+    font-family:chawp;  
+     font-size: 3em;
+}
+
+h2::after, h3::after { content: " "; border: solid 2px coral; display: block; width: 50px; margin: 25px auto; }
+.section-padding { padding: 90px 0 100px }
+
+h3,p{
+    color:white;
+}
+h3{
+    height: 100px;
+}
+.blend{
+   background-color:rgba(55,55,55,0.75);
+   width:100%;
+   height:89%;
+   position:absolute;
+}
+
+.blendimg{
+  opacity:0.3;
+    width:100%;
+   height:100%;
+   position:relative;
+
+}
+
+.features-wrapper{ margin: 20px 0 0; }
+
+
+.icon img { 
+width: 80%; 
+line-height: 175px;
+ max-width: 100%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto 50px; }

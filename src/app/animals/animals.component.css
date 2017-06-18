@@ -1,0 +1,340 @@
+@font-face {
+    font-family: CHAWP;
+    src: url(../../assets/fonts/chawp.otf);
+
+}
+body{
+    font-family: 'chawp';
+    padding: 0
+}
+.AnimalMain .headPic{
+    
+    background:url(../../assets/images/sandy.jpg) no-repeat center fixed;
+    background-size: cover;
+    
+    }
+.headPic .overlay{
+    background-color: rgba(0, 0, 0, 0.11);
+    padding-bottom: 6%;
+    padding-top: 9%;
+}
+.image{
+        background-color: rgba(14, 14, 14, 0.38);
+    width: 100px;
+    border-radius: 50%;
+        margin: auto;
+}
+.headPic .row .col img{
+width: 100px;
+height: 100px;
+}
+
+.mammal , .Birds , .Reptiles , .Fishes , .Babies{
+    height: 300px;
+    padding-top: 3%;
+}
+.mammal{
+    background:url(../../assets/images/Zebra-Texture.jpg) no-repeat center fixed;
+    background-size: cover;
+    filter: grayscale(1);
+
+
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.77);
+    padding: 3%
+}
+
+.Birds{
+    background:url(../../assets/images/8e74733f9b17ed5e932c1070ec969dff.jpg) no-repeat center fixed;
+         background-size: cover;
+
+    filter: grayscale(1);
+
+}
+.Fishes{
+     background:url(../../assets/images/691d9bd1c3010e117647a959818db452.jpg) no-repeat center fixed;
+     background-size: cover;
+     filter: grayscale(1);
+}
+
+.Babies{
+    background:url(../../assets/images/images.jpg) no-repeat center fixed;
+     background-size: cover;
+     filter: grayscale(1);
+}
+
+.mammal .brief , .Birds .brief , .Reptiles .brief , .Fishes .brief , .Babies .brief{
+    font-size: xx-large;
+    color: white;
+
+}
+.mammal span , .Birds span , .Reptiles span , .Fishes span , .Babies span{
+    font-family:'CHAWP';
+    font-size: 50px;
+    color: white;
+}
+
+.MammalAnimal , .Bird , .Reptile , .Fish , .Baby{
+    padding: 2%;
+    background-color: rgba(255, 233, 150, 0.16);
+
+}
+
+
+
+
+
+
+.Reptiles{
+        background:url(../../assets/images/e7e36471b60235d1b532195bcb6e127d.jpg) no-repeat center fixed;
+        background-size: cover;
+        filter: grayscale(1);
+
+}
+/*.MammalAnimal .overlay{
+    background-color: rgba(255, 255, 255, 0.56);
+}*/
+ /*.pre-begin{
+    height: 100px;
+    width: 400px;
+    margin-top: -4%;
+    padding-top: 5px;
+    border-left: 1px solid rgba(158, 158, 158, 0.44);
+    border-right: 1px solid rgba(158, 158, 158, 0.44);
+    box-shadow: 4px 0 6px -5px rgb(51, 51, 51), -4px 0 6px -5px #333;
+}
+.pre-begin{
+    background-color: coral;
+}*/
+
+
+
+
+
+
+/*.AnimalMain .container .begin .header{
+      height:70px;
+      background-color:darkcyan; 
+      margin-bottom:5%; 
+      border:1px solid darkgrey;
+      border-radius:10px;
+      
+
+}*/
+
+ .additional .didUKnow{
+height: 200px;
+background:url(../../assets/images/45515408-giraffe-wallpaper.jpg) no-repeat center fixed;
+background-size: cover;
+}
+
+ .additional .didUKnow .layer{
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.46);
+ }
+
+ .additional h3 ,.additional .layer h3 , .additional .layer h1{
+/*font-family: 'Shrikhand', cursive;*/
+/*font-family: 'Boogaloo', cursive;*/
+font-family: 'Oleo Script', cursive;
+/*font-family: 'Special Elite', cursive;*/
+margin-bottom: 2%
+}
+
+
+.additional p {
+/*font-family: 'Shrikhand', cursive;*/
+/*font-family: 'Boogaloo', cursive;*/
+font-size: 24px;
+font-weight: bold;
+font-family: 'Oleo Script', cursive;
+/*font-family: 'Special Elite', cursive;*/
+margin-bottom: 2%
+}
+ .additional .layer h3 , .additional .layer h1{
+    color: #FFF;
+
+
+ }
+ .additional .layer{
+    padding-top: 5%
+ }
+
+
+ .row{
+    margin-bottom: 3%
+}
+
+.begin .row .col img{
+    border: 2px solid coral; 
+}
+ .row .col img{
+     width: 200px;
+     height: 190px;
+     padding: 2px;
+     border: 2px solid papayawhip; 
+     
+}
+
+.begin  .row .col p{
+    color:coral;
+
+}
+ .row .col p{
+    font-size: x-large;
+/*
+font-family: 'Indie Flower', cursive;
+font-family: 'Eagle Lake', cursive;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Wendy One', sans-serif;
+
+*/
+}
+
+
+.pagination {
+      display: inline-block;
+    }
+    
+    .pagination a {
+      color: black;
+      float: left;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+    
+    .pagination a.active {
+      background-color: #8fbc8f;
+      color: white;
+    }
+    
+    .pagination a:hover:not(.active) {
+      background-color: #ddd;
+    }
+
+
+ 
+
+#search-form_3 {
+background: rgba(253, 168, 86, 0.26); /* Fallback color for non-css3 browsers */
+width: 50%;
+margin: 10px auto;
+margin-bottom: 3%;
+
+/* Gradients */
+background: -webkit-gradient( linear,left top, left bottom, color-stop(0, rgb(243,243,243)), color-stop(1, rgb(225,225,225)));
+background: -moz-linear-gradient( center top, rgb(243,243,243) 0%, rgb(225,225,225) 100%);
+
+/* Rounded Corners */
+border-radius: 17px;
+-webkit-border-radius: 17px;
+-moz-border-radius: 17px;
+
+/* Shadows */
+box-shadow: 1px 1px 2px rgba(0,0,0,.3), 0 0 2px rgba(0,0,0,.3);
+-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,.3), 0 0 2px rgba(0,0,0,.3);
+-moz-box-shadow: 1px 1px 2px rgba(0,0,0,.3), 0 0 2px rgba(0,0,0,.3);
+}
+
+/*** TEXT BOX ***/
+.search_3{
+background: #fafafa; /* Fallback color for non-css3 browsers */
+
+/* Gradients */
+background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(250,250,250)), color-stop(1, rgb(230,230,230)));
+background: -moz-linear-gradient( center top, rgb(250,250,250) 0%, rgb(230,230,230) 100%);
+border: 0;
+border-bottom: 1px solid #fff;
+border-right: 1px solid rgba(255,255,255,.8);
+font-size: 16px;
+    margin: 7px;
+    padding: 7px;
+    width: 98%;
+
+/* Rounded Corners */
+border-radius: 17px;
+-webkit-border-radius: 17px;
+-moz-border-radius: 17px;
+
+/* Shadows */
+box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+-webkit-box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+-moz-box-shadow: -1px -1px 2px rgba(0,0,0,.3), 0 0 1px rgba(0,0,0,.2);
+}
+
+/*** USER IS FOCUSED ON TEXT BOX ***/
+.search_3:focus{
+outline: none;
+background: #fff; /* Fallback color for non-css3 browsers */
+
+/* Gradients */
+background: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(255,255,255)), color-stop(1, rgb(235,235,235)));
+background: -moz-linear-gradient( center top, rgb(255,255,255) 0%, rgb(235,235,235) 100%);
+}
+
+/*** SEARCH BUTTON ***/
+.submit_3{
+background: coral;/* Fallback color for non-css3 browsers */
+/* Gradients */
+border: 0;
+color: #eee;
+cursor: pointer;
+float: right;
+font: 16px 'Raleway', sans-serif;
+font-weight: bold;
+height: 30px;
+margin: 11px 11px 0;
+text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+width:20%;
+outline: none;
+
+/* Rounded Corners */
+border-radius: 30px;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+
+/* Shadows */
+box-shadow: -1px -1px 1px rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.4);
+-moz-box-shadow: -1px -1px 1px rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.2);
+-webkit-box-shadow: -1px -1px 1px rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.4);
+}
+/*** SEARCH BUTTON HOVER ***/
+.submit_3:hover {
+background: coral;
+}
+.submit_3:active {
+background:coral; /* Fallback color for non-css3 browsers */
+
+/* Gradients */
+background: coral;
+}
+@media(min-width:767px){
+    .col-sm-offset-0{
+        margin-left: 0% !important;
+    }
+}
+@media(max-width:767px){
+    #search-form_3{
+        width: 75% !important;       
+    }
+}
+ @media(max-width:480px){
+    #search-form_3{
+        width: 100% !important;
+    }
+    .search_3{
+        width:55%;
+    }
+    .submit_3{
+        width:28%;
+    }
+}
+.container h2{
+	font-family: 'CHAWP';
+	margin-bottom: 5%;
+	color: #3c763d;
+  font-size: 35px;
+}

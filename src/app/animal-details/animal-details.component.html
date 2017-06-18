@@ -1,0 +1,94 @@
+<!--<link rel="stylesheet" href="assets/css/DetailStyle.css" />-->
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<!--<link rel="stylesheet" href="assets/css/font-awesome.min.css">-->
+<div class="container"  >
+    <div class="firstSec text-center" *ngIf="details">
+        <!--<a href="#">--><img [src]="animals.Image" alt="" class="img-circle" width="200" /><!--</a>-->
+        <h2 class="h2">{{animals.NickName}}</h2>
+        <p>Live in {{details.Origin}}</p>
+    </div>
+
+    <div class="SecondSec">
+        <div class="row">
+            <div class="col col-lg-4 col-md-4 col-sm-12" >
+                <div class="info">
+                    <i class="fa fa-address-book-o" aria-hidden="true"></i>
+                    <span class="title">
+								<b>Origin</b>
+                     </span>
+                    <p class="desc">{{details.Origin}}</p>
+                </div>
+            </div>
+            <div class="col col-lg-4 col-md-4 col-sm-12">
+                <div class="info">
+                    <i class="fa fa-paw" aria-hidden="true"></i>
+                    <span class="title"><b>Habitat</b></span>
+                    <p class="desc">{{details.Habitat}}</p>
+                </div>
+            </div>
+
+            <div class="col col-lg-4 col-md-4 col-sm-12">
+                <div class="info">
+                    <i class="fa fa-cutlery" aria-hidden="true"></i>
+                    <span class="title"><b>Diet</b></span>
+                    <p class="desc">{{details.Diet}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col col-lg-4 col-md-4 col-sm-12">
+                <div class="info">
+                    <i class="fa fa-spinner" aria-hidden="true"></i>
+
+                    <span class="title"><b>Status</b></span>
+                    <p class="desc">{{details.Status}}</p>
+                </div>
+            </div>
+
+            <div class="col col-lg-4 col-md-4 col-sm-12">
+                <div class="info">
+                    <img src="assets/images/black-balloon-shape.png" width="20" height="20">
+                    <span class="title"><b>Size</b></span>
+                    <p class="desc">{{details.Size}}</p>
+                </div>
+            </div>
+
+            <div class="col col-lg-4 col-md-4 col-sm-12">
+                <div class="info">
+                    <i class="fa fa-balance-scale" aria-hidden="true"></i>
+                    <span class="title"><b>Weight</b></span>
+                    <p class="desc">{{details.Weight}}</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <!--<div class="col col-lg-4 col-md-4 col-sm-12">
+                <div class="info">
+                    <i class="fa fa-circle-o-notch" aria-hidden="true"></i>
+                    <span class="title"><b>Gestation period</b></span>
+                    <p class="desc">Approx. 22 months</p>
+                </div>
+            </div>-->
+
+            <div class="col col-lg-4 col-md-4 col-sm-12">
+                <div class="info">
+                    <i class="fa fa-circle-o-notch" aria-hidden="true"></i>
+                    <span class="title"><b>Achievable age</b></span>
+                    <p class="desc">{{details.Age}}</p>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="para">
+            <h1>{{animals.NickName}} have a longer pregnancy </h1>
+            <p>{{details.Description}}
+            <!--</p>-->
+        </section>
+
+
+    </div>

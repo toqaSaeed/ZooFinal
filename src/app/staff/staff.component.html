@@ -1,0 +1,19 @@
+<section class="team text-center section-padding" id="team">
+  <div class="container">
+
+    <div class="row"  *ngFor="let t of type">
+      <div class="col-md-12">
+        <h1 class="arrow">meet our {{t.Title}}s</h1>
+
+        <div class="team-wrapper">
+          <div class="col-md-4 col-sm-6 wp5" *ngFor="let s of staffData | stafffilter : t._id">
+            <img style="width: 150px; height: 150px" [src]="s.Image" alt="Team Member">
+            <h2>{{s.Name}}</h2>
+            <p>{{s.Title}}</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

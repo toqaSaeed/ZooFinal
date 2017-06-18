@@ -1,0 +1,13 @@
+<div class="homeAnimalSection">
+              <!--<div id="animalname" class="animalname"></div>-->
+<app-carousal [interval]="NextPhotoInterval" [noWrap]="noLoopSlides">
+  <app-slide *ngFor="let slidez of slides; let index=index" [active]="slidez.active">
+              <h2>Our Animals</h2>
+    <img [src]="slidez.image" style="margin:auto; width: 50%; height:500px">
+    <div class="carousel-caption">
+      <!--<h3 style="background-color: transparent;color: white;">Slide {{index + 1}}</h3>-->
+      <!--<p style="background-color: transparent;color: white;">{{slidez.text}}</p>-->
+    </div>
+  </app-slide>
+</app-carousal>
+</div>

@@ -1,0 +1,26 @@
+.col{
+    height: 500px;
+    padding-top: 4%
+
+    
+}
+
+.data .row .fa{
+    padding: 10px;
+    margin:5px;
+    color: orange;
+    border: orange 1px solid;
+    border-radius: 50px;
+    font-size: x-large;
+}
+
+h3{
+    color: orange;
+    font-family: 'chawp';
+    font-size: 25px;
+}
+
+.container{
+    font-size: larger;
+    font-weight: 2em;
+}
