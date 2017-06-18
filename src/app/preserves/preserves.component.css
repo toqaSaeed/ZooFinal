@@ -1,14 +1,14 @@
 @font-face{
 	font-family: 'chawp';
-	src: url('../../assets/fonts/chawp.otf')
+	src: url('../../assets/fonts/chawp.ttf')
 }
 
-h1{
+h2{
   font-family: 'chawp';
-  font-size: 30px;
+  /*font-size: 30px;*/
   color: coral;
-  text-transform: uppercase;
-  font-weight: 300;
+  /*text-transform: uppercase;*/
+  /*font-weight: 300;*/
   text-align: center;
   margin-bottom: 15px;
 }

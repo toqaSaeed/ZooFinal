@@ -1,23 +1,37 @@
+@font-face {
+    font-family: CHAWP;
+    src: url(../../assets/fonts/chawp.ttf);
+
+}
+
 h2 { 
-    font-size: 1.5em;
-    margin: 0.83em 0;
+    
+    /*font-size: 1.5em;*/
+    /*margin: 0.83em 0;*/
     /*font-family: 'Myriad'*/
+    font-family: 'CHAWP';
+    
      }
 p{ margin: 1em 0; }
 img { border: 0; /* 1 */
 -ms-interpolation-mode: bicubic; /* 2 */ }
 p {  word-spacing: 1px; line-height: 25px; font-size: 14px; }
-h2 { font-size: 22px; 
+h2 { 
+    /*ifont-size: 22px; */
 color: #3c763d; 
-font-weight: bold; 
-text-transform: capitalize;
-height: 100px;
+/*font-weight: bold; */
+/*text-transform: capitalize;*/
+/*height: 100px;*/
 }
 h2::after { content: " "; border: solid 2px coral56; display: block; width: 50px; margin: 25px auto; }
 .section-padding { padding: 90px 0 100px }
 /* ==========================================================================
 Features
 ========================================================================== */
+h4{
+    color:coral;
+        font-family: 'CHAWP';
+}
 h1.arrow {
     font-family: 'CHAWP';
     font-size: 25px;

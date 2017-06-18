@@ -1,3 +1,8 @@
+ @font-face {
+    font-family: CHAWP;
+    src: url(../../assets/fonts/chawp.ttf);
+
+}
  .homeAnimalSection {
  background:url(../../assets/images/Grass-PNG-Clipart.png) no-repeat bottom;   
      background-size: cover;

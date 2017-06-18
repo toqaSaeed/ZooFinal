@@ -60,9 +60,11 @@
           height: 350px;
           background-color:rgba(96, 125, 139, 0.33);
       }
-   .container h1{
+   .container h2{
           font-family: 'CHAWP';
           color: #3c763d;
+          /*font-size:3em;*/
+
    }
 
     .Head{

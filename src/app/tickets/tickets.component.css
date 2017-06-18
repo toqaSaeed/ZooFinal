@@ -318,6 +318,11 @@ box-shadow: -1px -1px 1px rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.4);
 -moz-box-shadow: -1px -1px 1px rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.2);
 -webkit-box-shadow: -1px -1px 1px rgba(255,255,255,.5), 1px 1px 0 rgba(0,0,0,.4);
 }
+@font-face {
+    font-family: CHAWP;
+    src: url(../../assets/fonts/chawp.ttf);
+
+}
 /*** SEARCH BUTTON HOVER ***/
 .submit_3:hover {
 background: coral;
@@ -353,5 +358,5 @@ background: coral;
 	font-family: 'CHAWP';
 	margin-bottom: 5%;
 	color: #3c763d;
-  font-size: 35px;
+  /*font-size: 35px;*/
 }

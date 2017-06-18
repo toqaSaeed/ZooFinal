@@ -7,6 +7,11 @@
 .container .org .col{
     margin-bottom: 3%
 }
+@font-face {
+    font-family: CHAWP;
+    src: url(../../assets/fonts/chawp.ttf);
+
+}
 h3{
     font-family: 'CHAWP';
     color:#3c763d;

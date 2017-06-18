@@ -3,12 +3,12 @@
 
     <div class="row"  *ngFor="let t of type">
       <div class="col-md-12">
-        <h1 class="arrow">meet our {{t.Title}}s</h1>
+        <h2 class="arrow">meet our {{t.Title}}s</h2>
 
         <div class="team-wrapper">
           <div class="col-md-4 col-sm-6 wp5" *ngFor="let s of staffData | stafffilter : t._id">
             <img style="width: 150px; height: 150px" [src]="s.Image" alt="Team Member">
-            <h2>{{s.Name}}</h2>
+            <h4>{{s.Name}}</h4>
             <p>{{s.Description}}</p>
           </div>
 

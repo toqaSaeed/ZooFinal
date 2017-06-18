@@ -21,7 +21,8 @@ small { font-size: 75%; }
 img { border: 0; /* 1 */
 -ms-interpolation-mode: bicubic; /* 2 */ }
 p {  word-spacing: 1px; line-height: 25px; font-size: 14px; }
-h2 { font-size: 22px; color: #3c763d; font-weight: bold; text-transform: capitalize}
+h2 { color: #3c763d}
+/*h2 { font-size: 22px; color: #3c763d; font-weight: bold; text-transform: capitalize}*/
 h2::after { content: " "; border: solid 2px coral; display: block; width: 50px; margin: 25px auto; }
 .section-padding { padding: 90px 0 100px }
 /* ==========================================================================

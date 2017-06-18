@@ -1,3 +1,8 @@
+@font-face {
+    font-family: CHAWP;
+    src: url(../../assets/fonts/chawp.ttf);
+
+}
 .container h1{
 	font-family: 'CHAWP';
 	margin-bottom: 2%;

@@ -1,3 +1,9 @@
+
+@font-face {
+    font-family: CHAWP;
+    src: url(../../assets/fonts/chawp.ttf);
+
+}
 .col{
     height: 500px;
     padding-top: 4%

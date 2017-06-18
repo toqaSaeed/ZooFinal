@@ -1,4 +1,8 @@
+@font-face {
+    font-family: CHAWP;
+    src: url(../../assets/fonts/chawp.ttf);
 
+}
         .contact_section{
 	margin:0 0 60px 0;
 	}

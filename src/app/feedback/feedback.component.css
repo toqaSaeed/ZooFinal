@@ -1,4 +1,8 @@
+@font-face {
+    font-family: CHAWP;
+    src: url(../../assets/fonts/chawp.ttf);
 
+}
 body {
 	background-color: rgba(255, 233, 150, 0.16); 
     font-size: 16px;

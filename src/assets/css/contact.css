@@ -20,7 +20,7 @@ ul{ list-style:none;}
 
 @font-face{
 	font-family: 'chawp';
-	src: url('../../assets/fonts/chawp.otf')
+	src: url('../../assets/fonts/chawp.ttf')
 }
 
 /* Primary Styles

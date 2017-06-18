@@ -1,7 +1,7 @@
 <div class="container" style="margin-top: 35px">
 
 <div class="page-header col-md-8">
-    <h1> Frequently Asked Questions</h1>
+    <h2> Frequently Asked Questions</h2>
 	<p ><b>Have a question about your visit to the Giza's National Zoo?</b>
     <br/>
     Below you'll find answers to the most commonly asked questions. 
@@ -16,7 +16,7 @@
         <div class="panel panel-default"  *ngFor="let f of faq|filter : type.Name">
             <div class="panel-heading">
                 <h4 class="panel-title">
-                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">{{f.Question}}</a>
+                   {{f.Question}}
                 </h4>
             </div>
             <div id="collapseTen" class="panel-collapse collapse in">
