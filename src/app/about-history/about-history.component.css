@@ -194,7 +194,7 @@ img { border: 0; max-width: 100%; }
 
   font-size: 3.26em;
   text-align: center;
-  color: orange;
+  color: coral;
   text-shadow: 1px 1px 0 #000;
 }
 
@@ -319,13 +319,13 @@ img { border: 0; max-width: 100%; }
   top: 56px;
   left: 50%;
   text-align: center;
-  background: #6a8db3;
+  background: #3c763d;
   color: #fff;
   width: 35px;
   height: 35px;
   line-height: 35px;
   margin-left: -21px;
-  border: 3px solid #90acc7;
+  border: 3px solid #3c763d;
   border-top-right-radius: 50%;
   border-top-left-radius: 50%;
   border-bottom-right-radius: 50%;

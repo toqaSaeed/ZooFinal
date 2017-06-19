@@ -148,3 +148,9 @@ a:focus {
   background-color: #8fbc8f;
   border-color: #8fbc8f ;
 }
+
+
+.service-icon img{
+	width:80px;
+	height:80px;
+}

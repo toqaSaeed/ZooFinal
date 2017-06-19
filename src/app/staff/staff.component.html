@@ -7,7 +7,7 @@
 
         <div class="team-wrapper">
           <div class="col-md-4 col-sm-6 wp5" *ngFor="let s of staffData | stafffilter : t._id">
-            <img style="width: 150px; height: 150px" [src]="s.Image" alt="Team Member">
+            <img style="width: 150px; height: 150px" [src]="s.Image" alt="Team Member" class="img-circle">
             <h4>{{s.Name}}</h4>
             <p>{{s.Description}}</p>
           </div>
