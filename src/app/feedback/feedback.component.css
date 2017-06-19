@@ -19,7 +19,11 @@ a, a:hover, a:focus {
 	text-decoration: none;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
-
+h2{
+	font-family: 'CHAWP';
+	margin-bottom: 5%;
+	color: #3c763d;
+}
 h1 {
 	margin-top: 10px;
 	font-size: 30px;
